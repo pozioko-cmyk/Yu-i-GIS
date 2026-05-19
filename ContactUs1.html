@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+}
+
+
+button {
+  background-color: #67cdd8;
+  color: rgb(69, 147, 154);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div div {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  min-width: 160px;
+  text-align: left;
+}
+
+a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Show dropdown when hovering over menu */
+div:hover div {
+  display: block;
+}
+
+/* Change button color when hovered */
+div:hover button {
+  background-color: #0073a6;
+}
+</style>
+</head>
+<body>
+    
+<div>
+  <button>Home</button>
+  <div>
+  <a href="/testing.html"> Home </a>
+    </div>
+</div>
+
+<div>
+  <button>About</button>
+  <div>
+    <a href="/History.html">History</a>
+  </div>
+</div>
+
+<div>
+  <button>Services</button>
+  <div>
+    <a href="/Menu.html">Menu</a>
+  </div>
+</div>
+
+<div>
+  <button>Contacts</button>
+  <div>
+    <a href="/ContactUs1.html">Our emails</a>
+  </div>
+</div>
+
+
+<table>
+<br>
+<br>
+<br>
+<table cellpadding "50" cellspacing = "50" bgcolor = "lightblue" align="center" width="80%">
+    <tr>
+       <td>
+        <img src="/Images_WD2026/Breads.jpg" width="50%">
+       </td>
+
+       <td> 
+      <h4"> Contact us </h4>
+      <p> Contact us by emailing to the emails:
+        <br>
+          (Email@gmail.com) - Owner
+          <br>
+          (Email2@gmail.com) - Co-owner
+      </p>
+       </td>
+    </tr>
+
+</table>
+</body>
+</html>

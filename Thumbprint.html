@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+}
+
+
+button {
+  background-color: #67cdd8;
+  color: rgb(69, 147, 154);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div div {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  min-width: 160px;
+  text-align: left;
+}
+
+a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Show dropdown when hovering over menu */
+div:hover div {
+  display: block;
+}
+
+/* Change button color when hovered */
+div:hover button {
+  background-color: #0073a6;
+}
+</style>
+</head>
+<body>
+    
+<div>
+  <button>Home</button>
+  <div>
+  <a href="/testing.html"> Home </a>
+    </div>
+</div>
+
+<div>
+  <button>About</button>
+  <div>
+    <a href="/History.html">History</a>
+  </div>
+</div>
+
+<div>
+  <button>Services</button>
+  <div>
+    <a href="/Menu.html">Menu</a>
+  </div>
+</div>
+
+<div>
+  <button>Contacts</button>
+  <div>
+    <a href="/ContactUs1.html"> Our emails</a>
+  </div>
+</div>
+<br><br>
+</head>
+
+
+<h2 style="color: rgb(247, 86, 255);"> Thumbprint Cookie(s) </h2>
+<h1> ~Order and Payment~ </h1>
+<table cellpadding="10" cellspacing="10" bgcolor="celeste" border="1" width="100%" align="center">
+    <tr>
+        <td>
+            <form>
+            <fieldset>
+            <h3> Details </h3>
+            <label> Select quantity: </label>
+            <select name = "N/A" required>
+            <option selected disabled> N/A </option>
+            <option> 1 </option>
+            <option> 2 </option>
+            <option> 3 </option>
+            <option> 4 </option>
+            <option> 5 </option>
+            </select>
+            <br>
+            <br>
+            <label> Payment Method </label>
+            <select name = "Payment" required>
+            <option selected disabled> N/A </option>
+            <option> Credit Card </option>
+            <option> Debit Card </option>
+            <option> Cash (On delivery) </option>
+            <option> Paypal </option>
+            <option> Bank Transfer </option>
+            </select>
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+            <label> Full Name: </label>
+            <input type="text" required>
+            <br><br>
+            <label> Email: </label>
+            <input type="email" required>
+            <br><br>
+            <label> Card Number: </label>
+            <input type="number" maxlength="16" required>
+            <br><br>
+            <label> CVV: </label>
+            <input type="password" maxlength="3" required>
+            <br><br>
+            <label> Expiry Date: </label>
+            <input type="date" required>
+            <br><br>
+            <input type="submit">
+            <br>
+            
+            </fieldset>
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
